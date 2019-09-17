@@ -17,4 +17,10 @@ public class Converter_ {
     public void given_3_should_return_three(){
         assertThat(new Converter().thisNumberSpelled(3)).isEqualTo("three");
     }
+    @Test
+    public void given_4_should_return_four(){
+        assertThat(new Converter().thisNumberSpelled(4)).isEqualTo("four");
+    }
+
 }
+
